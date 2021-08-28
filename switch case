@@ -1,0 +1,26 @@
+#include<stdio.h>  
+  
+int main()  
+{  
+    char choice;  
+  
+    printf("Enter your choice\n");  
+    scanf("%c", &choice);  
+  
+    switch(choice)  
+    {  
+        case 'a':  
+        case 'A': printf("You typed A or a\n");  
+                  break;  
+  
+        case 'b':  
+        case 'B': {  
+                   printf("You typed B or b\n");  
+                   break;  
+                  }  
+  
+        default: printf("Your selection is wrong!\n");  
+    }  
+  
+    return 0;  
+}  
